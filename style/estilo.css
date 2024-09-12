@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: solid #00d9ff;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img {
+    max-width: 80px;
+    border-radius: 50%;
+}
+.menu ul li a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #00d9ff;
+    color: #ffffff;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.foto2 {
+    margin: 20px 0;
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projetos {
+    padding: 0;
+}
+.projetos li {
+    list-style: none;
+}
+.projetos button {
+    background-color: #000000;
+    color: white;
+    align-items:center ;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.projetos button:hover {
+    background-color:#ffffff;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
