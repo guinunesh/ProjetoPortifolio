@@ -13,37 +13,51 @@ header {
     color: white;
     padding: 5px;
     margin: 5px;
-    border: solid #00d9ff;
+    border: solid #00ffd5;
     text-align: center;
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center; 
     
 }
 .logo img {
     max-width: 80px;
     border-radius: 50%;
 }
-.menu ul li a{
+
+.sidebar {
+    width: 15%;
+    height: 100vh;
+    background-color: #ccc;
+    padding: 20px;
+
+}
+.sidebar p {
+    margin-top: 10px;
+}
+.portifólio {
+    width: 200px; 
+    float: right; 
+    background-color: #ccc; 
+    padding: 10px; 
+    margin: 20px; 
+}
+.menu ul li a {
     text-decoration: none;
-    border: 1px solid #ccc;
     padding: 5px;
-    border-radius: 8px;
-    background-color: #00d9ff;
     color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 5px 2px black;
 }
 .menu ul {
     list-style: none;
+    padding-left: 50px;
 }
 .menu ul li {
     display: inline-block;
     margin-right: 20px;
-}
-.menu ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
 }
 
 h1, h2 {
@@ -52,12 +66,10 @@ h1, h2 {
     text-align: center;
 }
 .foto2 {
-    margin: 20px 0;
-    max-width: 150px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+            height: auto; 
+            display: block; 
+            object-fit: cover; 
 }
 .projetos {
     padding: 0;
@@ -66,7 +78,7 @@ h1, h2 {
     list-style: none;
 }
 .projetos button {
-    background-color: #000000;
+    background-color: #ccc;
     color: white;
     align-items:center ;
     border: none;
@@ -76,7 +88,7 @@ h1, h2 {
     border-radius: 5px;
 }
 .projetos button:hover {
-    background-color:#ffffff;
+    background-color:#ccc;
 }
 main{
     padding: 20px;
